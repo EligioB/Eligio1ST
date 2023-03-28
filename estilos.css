@@ -1,0 +1,30 @@
+/* Primera forma de poner estilos */
+/*body { */
+    background-color: azure;
+}
+
+.links {
+
+    background-color: black;
+    color: bisque;
+}
+
+#sButton {
+    background-color: aquamarine;
+    color: burlywood;
+}
+a {
+    background-color: blueviolet;
+    font-size: 20;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 400px;
+    margin: 250px;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
