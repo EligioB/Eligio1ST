@@ -1,30 +1,72 @@
-/* Primera forma de poner estilos */
-/*body { */
-    background-color: azure;
+/* Estilos para Index*/
+* {
+    background-color: rgb(252, 252, 227);
+}
+section {
+    position: relative; 
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    top: 130px; 
+    border: 2px solid white;
+}
+
+.imagen {
+    width: 150px; 
+    height: 150px;  
+    border-radius: 50%; 
+    display: block;  
+    margin: 0 auto; 
+    border: 2px solid rgb(197, 18, 18);
+}
+
+.name {
+    text-align: center;  
+    font-size: 45px; 
+    color: rgb(21, 20, 20);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .links {
-
-    background-color: black;
-    color: bisque;
-}
-
-#sButton {
-    background-color: aquamarine;
-    color: burlywood;
+    padding-top: 25px;
+    width: 60%;
+    margin: 0 auto; 
 }
 a {
-    background-color: blueviolet;
-    font-size: 20;
-    font-weight: bold;
+    padding: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    text-align: center;
 }
 
-h1 {
-    background-color: cornflowerblue;
-    width: 200px;
-    height: 400px;
-    margin: 250px;
-    padding-left: 50px;
-    padding-top: 50px;
-    
+.insta {
+    background-color: rgb(243, 72, 103);
+}
+.insta:hover {
+    background-color: rgb(250, 49, 176);
+    position: relative;
+    bottom: 1px;
+}
+
+.faceb {
+    background-color: rgb(142, 164, 254);
+}
+.faceb:hover {
+    background-color: rgb(38, 78, 237);
+    position: relative;
+    bottom: 1px;
+}
+
+.linked {
+    background-color: rgb(99, 123, 220);
+}
+
+.twiter {
+    background-color: rgb(48, 200, 255);
 }
