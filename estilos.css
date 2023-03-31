@@ -2,6 +2,9 @@
 * {
     background-color: rgb(252, 252, 227);
 }
+.partOne {
+    text-align: center;
+}
 section {
     position: relative; 
     display: block;
@@ -9,6 +12,37 @@ section {
     margin: 0 auto;
     top: 130px; 
     border: 2px solid white;
+}
+
+.logofb {
+    float: right;
+    border-radius: 50%; 
+    border: 2px solid rgb(255, 255, 255);    
+    height: 20px;
+    max-width: 100%;
+}
+.logoinsta {
+        float: right;
+        border-radius: 50%; 
+        border: 2px solid rgb(255, 255, 255);    
+        height: 20px;
+        max-width: 100%;
+}
+
+.logolink {
+    float: right;
+    border-radius: 50%; 
+    border: 2px solid rgb(255, 255, 255);    
+    height: 20px;
+    max-width: 100%;
+}
+
+.logotw {
+    float: right;
+    border-radius: 50%; 
+    border: 2px solid rgb(255, 255, 255);    
+    height: 20px;
+    max-width: 100%;
 }
 
 .imagen {
@@ -20,11 +54,10 @@ section {
     border: 2px solid rgb(197, 18, 18);
 }
 
-.name {
-    text-align: center;  
-    font-size: 45px; 
+.name { 
+    font-size: 50px; 
     color: rgb(21, 20, 20);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .links {
@@ -36,37 +69,59 @@ a {
     padding: 5px;
     height: 30px;
     margin-bottom: 10px;
-    font-size: 15px;
+    padding-right: 40px;
+    font-size: 20px;
     font-weight: 500;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
     display: block;
     text-align: center;
 }
 
 .insta {
-    background-color: rgb(243, 72, 103);
+    background-color: rgb(254, 117, 142);
+    transition: background-color 1s;
+    border-left: 40px outset rgb(235, 10, 149);
+    border-radius: 10px;
 }
 .insta:hover {
-    background-color: rgb(250, 49, 176);
+    background-color: rgb(237, 38, 194);
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 .faceb {
-    background-color: rgb(142, 164, 254);
+    background-color: rgb(118, 136, 255);
+    transition: background-color 1s;
+    border-left: 40px outset rgb(0, 123, 255);
+    border-radius: 10px;
 }
 .faceb:hover {
     background-color: rgb(38, 78, 237);
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 .linked {
-    background-color: rgb(99, 123, 220);
+    background-color: rgb(98, 187, 255);
+    transition: background-color 1s;
+    border-left: 40px outset rgb(2, 130, 199);
+    border-radius: 10px;
+}
+.linked:hover {
+    background-color: rgb(7, 127, 193);
+    position: relative;
+    bottom: 2px;
 }
 
 .twiter {
-    background-color: rgb(48, 200, 255);
+    background-color: rgb(117, 227, 254);
+    transition: background-color 1s;
+    border-left: 40px outset rgb(11, 243, 255);
+    border-radius: 10px;
+}
+.twiter:hover {
+    background-color: rgb(15, 222, 250);
+    position: relative;
+    bottom: 2px;
 }
