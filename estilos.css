@@ -54,18 +54,19 @@ section {
     border: 2px solid rgb(197, 18, 18);
 }
 
-.name { 
+.name {
+    
     font-size: 50px; 
     color: rgb(21, 20, 20);
     font-family: 'Courier New', Courier, monospace;
 }
 
-.links {
+.links {    /*esto es para el bloque en gral */
     padding-top: 25px;
     width: 60%;
     margin: 0 auto; 
 }
-a {
+a {         /*esto es para cada uno de los bloques a */
     padding: 5px;
     height: 30px;
     margin-bottom: 10px;
